@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <center>
+<body>
+        <!-- 1. Crear Titulo -->
+    <h1>Datos Personales</h1>
+
+    <form action="#" method="post">
+        <!-- 2. Crear un campo de texto para el nombre -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
+            <Br>
+        
+        <!-- 3. Crear un campo de texto para el apellido -->
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido" required>
+            <Br>
+        <!-- 4. Crear un campo de numero para edad -->
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" placeholder="Escribe tu edad" required>
+            <Br>
+        <!-- 5. Crear un campo de texto para la dirección -->
+            <label for="direccion">Dirección:</label>
+            <input type="text" name="direccion" id="direccion" placeholder="Escribe tu dirección" required>
+            <Br>
+
+        <!-- 6. Crear un campo de texto para el teléfono -->
+            <label for="telefono">Teléfono:</label>
+            <input type="text" name="telefono" id="telefono" placeholder="Escribe tu teléfono" required>
+            <Br>
+        <!-- 7. Crear un campo de texto para el correo -->
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo" placeholder="Escribe tu correo" required>
+
+            <Br>
+        <!-- 9. Crear campo de texto para escribir la comida favorita -->
+            <label for="comida">Comida Favorita:</label>
+            <input type="text" name="comida" id="comida" placeholder="Escribe tu comida favorita" required>
+        <!-- 10. Color favorito -->
+            <Br>
+
+            <label for="color">Color Favorito:</label>
+            <input type="color" name="color" id="color" required>
+            <Br>
+        <!-- 11. Crear campo para Genero -->
+                <label for="Genero">Genero</label>
+                <input type="radio" name="Genero" value="Hombre" required>Hombre
+                <input type="radio" name="Genero" value="Mujer" required>Mujer
+                <input type="radio" name="Genero" value="Otro" required>Otro
+            <Br>
+                <!-- 12. Crear campo para Estado Civil -->
+                <label for="EstadoCivil">Estado Civil</label>
+                <select name="EstadoCivil" required>
+                    <option value="Soltero">Soltero</option>
+                    <option value="Casado">Casado</option>
+                    <option value="Divorciado">Divorciado</option>
+                    <option value="Viudo">Viudo</option>
+                </select>
+            <Br>
+                <!-- 13. Crear campo para Fecha de Nacimiento -->
+                <label for="FechaNacimiento">Fecha de Nacimiento</label>
+                <input type="date" name="Fecha de Nacimiento" id="FechaNacimiento" required>
+            <Br>
+                <!-- 14. Crear campo para Hora de Nacimiento -->
+                <label for="HoraNacimiento">Hora de Nacimiento</label>
+                <input type="time" name="HoraNacimiento" required>
+
+            <Br>
+                <!-- 15. Crear campo para Aceptar Terminos y Condiciones -->
+            <Br>    
+                <label for="terminos">Acepto los términos y condiciones</label>
+                <input type="checkbox" name="terminos" id="terminos" required>
+                <!-- Ultimo siempre -->
+            <Br>
+            <Br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+                <input type="button" value="Cancelar">
+    </form> 
+</body>
+</center>
+</html>
